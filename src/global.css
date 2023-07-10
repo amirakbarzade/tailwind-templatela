@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;1,100&display=swap');
+
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.dark {
+    background-color:rgb(29, 37, 43);
+    color: white;
+}
+
+.font-EBGaramond {
+    font-family: 'EB Garamond', serif;
+}
+
+.section-style {
+    width: 79px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;    
+}
+
+.card-img {
+    width: 640px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.h-546 {
+    height: 546px;
+}
+
+.placeholder-img {
+    height: 139px;
+    width: 240px;
+    border-radius: 10px;
+}
